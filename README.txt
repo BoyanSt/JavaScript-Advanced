@@ -1,0 +1,1 @@
+These are my homeworks and exampreparation during the cours JavaScrip-Advanced at SoftUni Sofia
