@@ -1,0 +1,22 @@
+
+
+input{
+    height: 25px;
+    width: 200px;
+    padding-left: 5px;
+}
+
+button{
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+div{
+    height: 25px;
+    width: 200px;
+    padding: 5px 0 5px 5px;
+}
+
+p{
+    margin: 0;
+}

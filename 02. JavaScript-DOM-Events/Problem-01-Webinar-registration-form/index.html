@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+</head>
+<body>
+    <h2>Регистрация за уебинар</h2>
+    <form id="formWeb">
+        <label for="name">Име и Фамилия:*</label><br/>
+        <input type="text" name="name" id="name"><br/>
+        <label for="address">Адрес:</label><br/>
+        <input type="text" name="name" id="address"><br/>
+        <label for="city">Населено място:</label><br/>
+        <input type="text" name="name" id="city"><br/>
+        <label for="zipCode">Пощенски код:</label><br/>
+        <input type="text" name="name" id="zipCode"><br/>
+        <label for="email">Email:*</label><br/>
+        <input type="text" name="name" id="email"><br/>
+        <label for="phone">Телефон:*</label><br/>
+        <input type="text" name="name" id="phone"><br/>
+        <label for="date">Дата на семинара:*</label><br/>
+        <input type="datetime" name="date" id="date"><br/>
+        <input type="checkbox" name="invoice" id="checkInvoice" value="checked"> Желая фактура <br/>
+    </form>
+
+    <button type="submit" form="formWeb" value="Submit">Регисрирай се</button>
+    <button type="reset" form="formWeb" value="Reset">Изчисти</button>
+    <script src="invoiceInfo.js"></script>
+</body>
+</html>
