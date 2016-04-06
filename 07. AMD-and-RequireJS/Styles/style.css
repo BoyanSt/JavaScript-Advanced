@@ -1,0 +1,56 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: #4d004d;
+}
+
+main {
+    width: 500px;
+    margin: 0 auto;
+    border: solid #4d004d 1px;
+    border-radius: 10px 10px 10px 10px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: right;
+    margin-right:20px;
+}
+nav {
+    margin: 10px;
+}
+input {
+    padding: 5px 0 5px 15px;
+    height: 10px;
+    border: solid #4d004d 1px;
+    border-radius: 10px 10px 10px 10px;
+}
+.list {
+    text-align: right;
+}
+section {
+    width: 475px;
+    margin: 2px auto;
+}
+
+button{
+    padding: 1px 10px 1px 10px;
+    margin-left: 10px;
+    border: solid #4d004d 1px;
+    border-radius: 10px 10px 10px 10px;
+}
+article {
+    width: 450px;
+    margin: 10px;
+    border: solid #4d004d 1px;
+    border-radius: 10px 10px 10px 10px;
+}
+label {
+    display:inline-block;
+    width: 350px;
+    border-bottom: solid #4d004d 1px;
+}
+
+input:checked + label{
+    background-color: #ff66ff;
+}
